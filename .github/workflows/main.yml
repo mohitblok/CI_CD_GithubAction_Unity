@@ -20,7 +20,7 @@ jobs:
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          customImage: 'unityci/editor:2019.2.11f1'          
+          customImage: 'unityci/editor:2020.1.14f1-base-0'          
           targetPlatform: ${{ matrix.targetPlatform }}
       - uses: actions/upload-artifact@v2
         with:
