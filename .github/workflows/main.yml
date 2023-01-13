@@ -28,5 +28,5 @@ jobs:
           targetPlatform: ${{ matrix.targetPlatform }}
       - uses: actions/upload-artifact@v2
         with:
-          name: Build-${{ matrix.targetPlatform }}
+          name: Build-${{ env.TIME }}
           path: build/${{ matrix.targetPlatform }}
