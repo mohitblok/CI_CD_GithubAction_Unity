@@ -18,15 +18,6 @@ jobs:
         with:
           format: YYYYMMDD-HH
           utcOffset: "+08:00"
-      - name: Use current time
-        env:
-        TIME: "${{ steps.current-time.outputs.time }}"
-        R_TIME: "${{ steps.current-time.outputs.readableTime }}"
-        F_TIME: "${{ steps.current-time.outputs.formattedTime }}"
-        YEAR: "${{ steps.current-time.outputs.year }}"
-        DAY: "${{ steps.current-time.outputs.day }}"
-        run: echo $TIME $R_TIME $F_TIME $YEAR $DAY
-
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
@@ -43,5 +34,5 @@ jobs:
           targetPlatform: ${{ matrix.targetPlatform }}
       - uses: actions/upload-artifact@v2
         with:
-          name: Build-${{ env.TIME }}
+          name: Build-"${{ steps.current-time.outputs.time }}"
           path: build/${{ matrix.targetPlatform }}
