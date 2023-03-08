@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Header" style="flex-direction: row; justify-content: space-between; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;">
+        <ui:VisualElement name="Title" style="flex-direction: row; flex-wrap: nowrap; justify-content: space-around; align-items: flex-end; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 0; width: 670px;">
+            <ui:Label text="Game Loggers" display-tooltip-when-elided="true" style="padding-left: 0; padding-top: 0; padding-bottom: 0; width: 98px; justify-content: flex-end; padding-right: 0; margin-left: 5px; margin-right: 5px; align-items: stretch; -unity-text-align: middle-left; white-space: nowrap; height: 16px;" />
+            <uie:ToolbarPopupSearchField focusable="true" name="ToolbarPopupSearchField" style="width: 200px; justify-content: space-around; flex-direction: row; flex-grow: 0; margin-left: 5px; margin-right: 5px; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

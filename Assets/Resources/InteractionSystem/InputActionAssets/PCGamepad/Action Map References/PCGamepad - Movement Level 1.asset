@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd44ac58957f7b4fb88932752826f10, type: 3}
+  m_Name: PCGamepad - Movement Level 1
+  m_EditorClassIdentifier: 
+  inputActionAsset: {fileID: -944628639613478452, guid: 502e3a3706a478946a5ed82ca3d8047e,
+    type: 3}
+  targetActionMap:
+    strings:
+    - Main
+    - Generic
+    - Movement Level 1
+    - Movement Level 2
+    - Menus
+    - Held Item
+    - World Item Pickup
+    - World Interaction
+    - Communication
+    selectedIndex: 2

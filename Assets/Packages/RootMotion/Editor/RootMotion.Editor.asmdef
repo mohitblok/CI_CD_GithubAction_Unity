@@ -1,0 +1,13 @@
+{
+    "name": "RootMotionEditor",
+    "references": [
+        "RootMotion",
+        "UnityEditor.TestRunner",
+        "UnityEngine.TestRunner",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

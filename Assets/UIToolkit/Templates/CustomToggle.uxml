@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">    
+    <ui:Button display-tooltip-when-elided="true" name="CustomToggle" class="unity-base-field unity-toggle">
+        <ui:Label text="Label" display-tooltip-when-elided="true" name="ToggleName" class="unity-base-field__label unity-toggle__label" />
+        <ui:VisualElement name="ToggleButton" class="unity-base-field__input unity-toggle__input">
+            <ui:VisualElement name="ToggleCheckmark" class="unity-toggle__checkmark" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

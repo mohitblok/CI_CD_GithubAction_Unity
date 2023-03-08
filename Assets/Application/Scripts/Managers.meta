@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/BuildPipline/Editor.meta
+guid: e2cb0b9027127c046b86a424b4a87a74
+========
+guid: 1a117753bb61a454698f3603a85fd222
+>>>>>>>> origin/chore/managers/skeletons:Assets/Scripts/Managers.meta
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

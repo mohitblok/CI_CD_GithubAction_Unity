@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a48f2ce0d1c4cc438e2b6a6261a4d18, type: 3}
+  m_Name: DisablePlayer
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  <MapsToEnable>k__BackingField: []
+  <MapsToDisable>k__BackingField:
+  - {fileID: 11400000, guid: f0735ec0c800afb4eb7aca4fad9f94a4, type: 2}
+  - {fileID: 11400000, guid: f1a6a3a155ad3264daae4a4ea0bf5550, type: 2}
+  - {fileID: 11400000, guid: 20c7c420513ca684b8cb049673ebd924, type: 2}
+  - {fileID: 11400000, guid: ee609c05570c8194ba72719f2b570f79, type: 2}
+  - {fileID: 11400000, guid: ad1c23dc9f6c18443ad52e36787167ce, type: 2}
+  - {fileID: 11400000, guid: bf6fe98522b3a1b4bb29e7728ee8bd1e, type: 2}
+  - {fileID: 11400000, guid: 4355bf452891f9e4480da7e378cf271a, type: 2}

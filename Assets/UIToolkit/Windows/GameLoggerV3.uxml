@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="CustomToggle" src="project://database/Assets/UIToolkit/Templates/CustomToggle.uxml?fileID=9197481963319205126&amp;guid=7d68b117360301144b20e6f429ba4abd&amp;type=3#CustomToggle" />    
+    <ui:VisualElement name="ToolBar" class="background-dark1" style="align-items: center;">
+        <ui:VisualElement name="ToolBarList" style="align-items: center; justify-content: flex-start; background-color: rgb(55, 55, 55); padding-top: 0; padding-bottom: 5px; height: 100%; margin-top: 5px; margin-bottom: 5px; padding-left: 5px; padding-right: 5px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; width: 100%;">
+            <ui:Instance template="CustomToggle" name="DebugMode">
+                <AttributeOverrides element-name="ToggleName" text="Debug Mode" />
+            </ui:Instance>
+            <ui:ListView focusable="true" header-title="Loggers" horizontal-scrolling="true" show-bound-collection-size="false" show-alternating-row-backgrounds="ContentOnly" show-border="false" name="LoggerList" class="toolbar-list__toggles" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
