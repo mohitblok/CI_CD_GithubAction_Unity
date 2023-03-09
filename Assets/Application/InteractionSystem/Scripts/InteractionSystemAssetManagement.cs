@@ -31,11 +31,11 @@ public partial class InteractionSystem : MonoSingleton<InteractionSystem>
 
     private List<LinkedInputActionAssets> InitialiseAssets()
     {
-#if UNITY_EDITOR
-        return InitialiseDevelopmentAssets();
-#else
-         return Debug.isDebugBuild ? InitialiseDevelopmentAssets : InitialiseProductionAssets;
-#endif
+// #if UNITY_EDITOR
+//         return InitialiseDevelopmentAssets();
+// #else
+//          return Debug.isDebugBuild ? InitialiseDevelopmentAssets : InitialiseProductionAssets;
+// #endif
     }
     private List<LinkedInputActionAssets> InitialiseProductionAssets()
     {
