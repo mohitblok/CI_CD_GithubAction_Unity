@@ -27,7 +27,7 @@ public partial class InteractionSystem : MonoSingleton<InteractionSystem>
 
     private void OnEnable()
     {
-        _linkedInputActionAssets ??= InitialiseAssets();
+        //_linkedInputActionAssets ??= InitialiseAssets();
         EnableAllAssets();
         AddModifier(Modifier.Default(this));
     }
